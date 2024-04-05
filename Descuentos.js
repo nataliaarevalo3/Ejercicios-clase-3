@@ -12,6 +12,6 @@ function calcularDescuento(monto) {
 
 var monto = parseFloat(prompt("Ingrese el monto: "))
 
-var descuento = calcularDescuento(monto)
+var precio_final = monto - descuento
 
-alert ("El descuento es de: " + descuento)
+alert ("El descuento es de: " + descuento + " \nEl precio final es " + precio_final)
